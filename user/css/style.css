@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/5.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}	
+
+ul
+{
+	float:right;
+	List-style-type: none;
+	margin-top:25px;
+	
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #00;
+	transition:0.6s
+	
+}
+
+ul li a:hover
+{
+	background-color:#fff;
+	color: #000;
+}
+
+ul li.active a
+{
+	background-color:#fff;
+	color: #000;
+}
+
+.title
+{
+	position: absolute;
+	top: 30%;
+	Left: 10%;
+	transform: translate(-50%-50%);
+}
+
+.title h1
+{
+	color: #fff;
+	font-size: 50px;
+}
+.title h3
+{
+	color: #fff;
+	
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.box{
+  float:right;
+  text-align: center;
+  width: 300px;
+  height:300px;
+  padding:2px;
+}
+
+ .box img{
+  width:300px;
+}
+
+
+
+
+.btn
+{
+	border:1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+
+.button1
+{
+	position: absolute;
+	top: 15%;
+	Left: 10%;
+	transform: translate(-50%-50%);
+	
+	
+}
+.btn1
+{
+	border:1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+	
+}
+
+.detpara
+{
+	position: absolute;
+	top: 50%;
+	Left: 10%;
+	transform: translate(-50%-50%);
+	border:1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+}
+.btn2
+{
+	border:1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+	
+}
+
+
+.button3
+{
+	position: absolute;
+	top: 70%;
+	Left: 30%;
+	transform: translate(-50%-50%);
+	
+}
+.btn3
+{
+	border:1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+	
+}
+
+
+
+.btn3:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+.btn:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+
+
